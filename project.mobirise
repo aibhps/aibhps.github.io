@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 31,
+    "uniqCompNum": 32,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png"
   },
@@ -1188,31 +1188,6 @@
           "_anchor": "soundcloud2-h"
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "postToLoad": "3",
-            "facebook": "BOYA.HAKKULA.PORATA.SAMITI/",
-            "twitter": "apbhps3?s=08",
-            "google": "",
-            "youtube": "",
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
-            "overlay": true,
-            "overlayColor": "#7e9b9f",
-            "overlayOpacity": 0.6
-          },
-          "alias": "social-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "feed",
-          "_anchor": "feed-u"
-        },
-        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -1426,6 +1401,31 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "postToLoad": 3,
+            "facebook": "mobirise",
+            "twitter": "mobirise",
+            "google": "+mobirise",
+            "youtube": "UCt_tncVAetpK5JeM8L-8jyw",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-v"
         }
       ]
     }
