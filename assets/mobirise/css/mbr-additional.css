@@ -2326,3 +2326,6 @@ body {
 .cid-r01s70tHiJ .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+.cid-r01s70tHiJ P {
+  text-align: left;
+}
