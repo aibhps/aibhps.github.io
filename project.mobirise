@@ -1126,26 +1126,6 @@
           "_anchor": "gallery1-t"
         },
         {
-          "_inherit": "soundcloud1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "sound": "https://soundcloud.com/kranthi-naidu-958510165/sets/valmiki-development-mission",
-            "autoplay": false,
-            "fullWidth": true,
-            "bgColor": "#fff"
-          },
-          "alias": "soundcloud",
-          "_tags": [
-            "Extension"
-          ],
-          "_afterNavbarItem": false,
-          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F294104211&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F294104211",
-          "_name": "soundcloud2",
-          "_anchor": "soundcloud2-h"
-        },
-        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -1188,10 +1168,30 @@
           "_params": {}
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_inherit": "soundcloud1",
           "_params": {
             "paddingTop": 0,
             "paddingBottom": 0,
+            "sound": "https://soundcloud.com/kranthi-naidu-958510165/sets/valmiki-development-mission",
+            "autoplay": false,
+            "fullWidth": true,
+            "bgColor": "#fff"
+          },
+          "alias": "soundcloud",
+          "_tags": [
+            "Extension"
+          ],
+          "_afterNavbarItem": false,
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F294104211&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F294104211",
+          "_name": "soundcloud2",
+          "_anchor": "soundcloud2-h"
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "postToLoad": "3",
             "facebook": "BOYA.HAKKULA.PORATA.SAMITI/",
             "twitter": "apbhps3?s=08",
