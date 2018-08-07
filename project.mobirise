@@ -444,7 +444,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://www.facebook.com/BOYA.HAKKULA.PORATA.SAMITI/\" target=\"_blank\">\n                        <img src=\"@PROJECT_PATH@/assets/images/11707688-990594727638203-7521269951538114211-n-122x147.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://www.facebook.com/BOYA.HAKKULA.PORATA.SAMITI/\" data-app-placeholder=\"Type Text\">AIBHPS</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-info\" href=\"https://goo.gl/forms/sb6c5LLcOQXoljR23\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">BHPS ONLINE APPLICATION FORM&nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"https://www.facebook.com/BOYA.HAKKULA.PORATA.SAMITI/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        About Us\n                    </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://www.facebook.com/T.N.Praveen\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>+919849175645, +919985116922</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://www.facebook.com/BOYA.HAKKULA.PORATA.SAMITI/\" target=\"_blank\">\n                        <img src=\"@PROJECT_PATH@/assets/images/11707688_990594727638203_7521269951538114211_n-122x147.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://www.facebook.com/BOYA.HAKKULA.PORATA.SAMITI/\" data-app-placeholder=\"Type Text\">AIBHPS</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-info\" href=\"https://goo.gl/forms/sb6c5LLcOQXoljR23\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">BHPS ONLINE APPLICATION FORM&nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"https://www.facebook.com/BOYA.HAKKULA.PORATA.SAMITI/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        About Us\n                    </a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://www.facebook.com/T.N.Praveen\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>+919849175645, +919985116922</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "r01qHX9Cut",
           "_anchor": "menu2-5",
           "_protectedParams": [],
@@ -785,7 +785,7 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/fb-img-1533193206575-720x478.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fb_img-1533193206575-720x478.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -802,7 +802,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/fb-img-1533193033766-633x415.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fb_img-1533193033766-633x415.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -819,7 +819,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/26756262-1736703866360615-5999931664193639598-o-1040x780.jpg",
+                "image": "@PROJECT_PATH@/assets/images/26756262_1736703866360615_5999931664193639598_o-1040x780.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": true,
@@ -836,7 +836,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/25289427-1708929225804746-604705107547899622-n-960x581.jpg",
+                "image": "@PROJECT_PATH@/assets/images/25289427_1708929225804746_604705107547899622_n-960x581.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -853,7 +853,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/29791385-1824697057561295-3521646724625095872-n-960x550.jpg",
+                "image": "@PROJECT_PATH@/assets/images/29791385_1824697057561295_3521646724625095872_n-960x550.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -870,7 +870,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/fb-img-1533192905451-720x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fb_img-1533192905451-720x720.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -887,7 +887,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/22195551-1639362356094767-2835861141943910010-n-960x540.jpg",
+                "image": "@PROJECT_PATH@/assets/images/22195551_1639362356094767_2835861141943910010_n-960x540.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": true,
@@ -996,7 +996,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/11889540-990598907637785-5874961849670832139-n-960x471.jpg",
+                "image": "@PROJECT_PATH@/assets/images/11889540_990598907637785_5874961849670832139_n-960x471.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/11889540-990598907637785-5874961849670832139-n-960x471-800x393.jpg",
                 "alt": "",
                 "title": "",
@@ -1009,7 +1009,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/14611134-1257283494302657-2509194543481732793-n-960x701.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14611134_1257283494302657_2509194543481732793_n-960x701.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/14611134-1257283494302657-2509194543481732793-n-960x701-800x584.jpg",
                 "alt": "",
                 "title": "",
@@ -1022,7 +1022,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/14713742-1257283657635974-8147252881641359291-n-960x743.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14713742_1257283657635974_8147252881641359291_n-960x743.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/14713742-1257283657635974-8147252881641359291-n-960x743-800x619.jpg",
                 "alt": "",
                 "title": "",
@@ -1035,7 +1035,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/16387216-1388004031230602-3350553428105074647-n-960x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/16387216_1388004031230602_3350553428105074647_n-960x720.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/16387216-1388004031230602-3350553428105074647-n-960x720-800x600.jpg",
                 "alt": "",
                 "title": "",
@@ -1048,7 +1048,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/27173945-1750875098276825-755979522472616669-o-892x1280.jpg",
+                "image": "@PROJECT_PATH@/assets/images/27173945_1750875098276825_755979522472616669_o-892x1280.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/27173945-1750875098276825-755979522472616669-o-892x1280-800x1148.jpg",
                 "alt": "",
                 "title": "",
@@ -1061,7 +1061,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/19904978-1747630291934639-1354820564366646020-n-960x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/19904978_1747630291934639_1354820564366646020_n-960x720.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/19904978-1747630291934639-1354820564366646020-n-960x720-800x600.jpg",
                 "alt": "",
                 "title": "",
@@ -1074,7 +1074,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/26219959-1730998846931117-3934770647243642014-n-689x596.jpg",
+                "image": "@PROJECT_PATH@/assets/images/26219959_1730998846931117_3934770647243642014_n-689x596.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/26219959-1730998846931117-3934770647243642014-n-689x596-689x596.jpg",
                 "alt": "",
                 "title": "",
@@ -1087,7 +1087,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/26756399-1744559765575025-1514585307699314348-o-1280x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/26756399_1744559765575025_1514585307699314348_o-1280x720.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/26756399-1744559765575025-1514585307699314348-o-1280x720-800x450.jpg",
                 "alt": "",
                 "title": "",
@@ -1100,7 +1100,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/27073201-1753949481302720-345636543354458435-n-960x540.jpg",
+                "image": "@PROJECT_PATH@/assets/images/27073201_1753949481302720_345636543354458435_n-960x540.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/27073201-1753949481302720-345636543354458435-n-960x540-800x450.jpg",
                 "alt": "",
                 "title": "",
@@ -1113,7 +1113,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/35349367-1899462463418087-7330903811516530688-n-960x540.jpg",
+                "image": "@PROJECT_PATH@/assets/images/35349367_1899462463418087_7330903811516530688_n-960x540.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/35349367-1899462463418087-7330903811516530688-n-960x540-800x450.jpg",
                 "alt": "",
                 "title": "",
@@ -1188,7 +1188,7 @@
           "_anchor": "soundcloud2-h"
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
